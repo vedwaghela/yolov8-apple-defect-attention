@@ -1,0 +1,43 @@
+{
+  "sources": {
+    "train.py": "98d0062510baaae5f0ae694d940b309903d6f01463cbe450a970cd46f11314fc",
+    "attention.py": "f9885d8410a1e26fa26951a258836f45b97b59a1e00864933eb7c63cfd332e70",
+    "FINAL_PROTOCOL.md": "9ac7f9594284d08eb5e6f55ae0f2569d0f7f7429cca461467005732707835e85"
+  },
+  "runs": {
+    "baseline_full_seed43": {
+      "status": "completed",
+      "run": "${PROJECT_ROOT}/baseline/runs/baseline_full_seed43_20261018T000734673020"
+    },
+    "se_full_seed43": {
+      "status": "completed",
+      "run": "${PROJECT_ROOT}/baseline/runs/se_full_seed43_20261018T003217508226"
+    },
+    "cbam_full_seed43": {
+      "status": "completed",
+      "run": "${PROJECT_ROOT}/baseline/runs/cbam_full_seed43_20261018T005711608188"
+    },
+    "ca_full_seed43": {
+      "status": "completed",
+      "run": "${PROJECT_ROOT}/baseline/runs/ca_full_seed43_20261018T012253155425"
+    },
+    "baseline_full_seed44": {
+      "status": "completed",
+      "run": "${PROJECT_ROOT}/baseline/runs/baseline_full_seed44_20261018T014814281289"
+    },
+    "se_full_seed44": {
+      "status": "completed",
+      "run": "${PROJECT_ROOT}/baseline/runs/se_full_seed44_20261018T021354818425"
+    },
+    "cbam_full_seed44": {
+      "status": "completed",
+      "run": "${PROJECT_ROOT}/baseline/runs/cbam_full_seed44_20261018T024017083779"
+    },
+    "ca_full_seed44": {
+      "status": "completed",
+      "run": "${PROJECT_ROOT}/baseline/runs/ca_full_seed44_20261018T030614135985"
+    }
+  },
+  "status": "completed",
+  "test_evaluated": false
+}

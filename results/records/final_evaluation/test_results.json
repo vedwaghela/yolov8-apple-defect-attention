@@ -1,0 +1,458 @@
+[
+  {
+    "model": "baseline",
+    "seed": 42,
+    "run": "${PROJECT_ROOT}/baseline/runs/baseline_seed42_20261016T000839200430",
+    "split": "test",
+    "checkpoint_sha256": "67a605a886d4a581fed57766856566b985682c4669e401e89a6837a5977b5fae",
+    "map50": 0.7421714365670675,
+    "map50_95": 0.4003674977871752,
+    "per_class": [
+      {
+        "Class": "scratch",
+        "Images": 60,
+        "Instances": 94,
+        "Box-P": 0.61566,
+        "Box-R": 0.59574,
+        "Box-F1": 0.60554,
+        "mAP50": 0.61735,
+        "mAP50-95": 0.3077
+      },
+      {
+        "Class": "pest_damage",
+        "Images": 54,
+        "Instances": 139,
+        "Box-P": 0.81521,
+        "Box-R": 0.8252,
+        "Box-F1": 0.82018,
+        "mAP50": 0.86699,
+        "mAP50-95": 0.49303
+      }
+    ],
+    "diagnostic_totals": {
+      "correct": 175,
+      "wrong_class": 7,
+      "missed": 51,
+      "extra": 85
+    },
+    "diagnostic_definition": "conf=.25, IoU=.5, class-agnostic geometric assignment; not AP"
+  },
+  {
+    "model": "se",
+    "seed": 42,
+    "run": "${PROJECT_ROOT}/baseline/runs/se_full_seed42_20261017T065904933679",
+    "split": "test",
+    "checkpoint_sha256": "29949a1bd031e2641048cf178d311d979db6af72579bded899bf406a21f717fd",
+    "map50": 0.7802787093484018,
+    "map50_95": 0.4152685298985023,
+    "per_class": [
+      {
+        "Class": "scratch",
+        "Images": 60,
+        "Instances": 94,
+        "Box-P": 0.68734,
+        "Box-R": 0.69149,
+        "Box-F1": 0.68941,
+        "mAP50": 0.69559,
+        "mAP50-95": 0.32435
+      },
+      {
+        "Class": "pest_damage",
+        "Images": 54,
+        "Instances": 139,
+        "Box-P": 0.84256,
+        "Box-R": 0.77002,
+        "Box-F1": 0.80466,
+        "mAP50": 0.86497,
+        "mAP50-95": 0.50619
+      }
+    ],
+    "diagnostic_totals": {
+      "correct": 180,
+      "wrong_class": 3,
+      "missed": 50,
+      "extra": 54
+    },
+    "diagnostic_definition": "conf=.25, IoU=.5, class-agnostic geometric assignment; not AP"
+  },
+  {
+    "model": "cbam",
+    "seed": 42,
+    "run": "${PROJECT_ROOT}/baseline/runs/cbam_full_seed42_20261017T072311135098",
+    "split": "test",
+    "checkpoint_sha256": "b47a63d8f700040590b7446ebef6eac6457c12616f5d58854ac9b54858e072b0",
+    "map50": 0.7562331343106903,
+    "map50_95": 0.4154636290847201,
+    "per_class": [
+      {
+        "Class": "scratch",
+        "Images": 60,
+        "Instances": 94,
+        "Box-P": 0.75829,
+        "Box-R": 0.66752,
+        "Box-F1": 0.71001,
+        "mAP50": 0.63633,
+        "mAP50-95": 0.30502
+      },
+      {
+        "Class": "pest_damage",
+        "Images": 54,
+        "Instances": 139,
+        "Box-P": 0.89126,
+        "Box-R": 0.76978,
+        "Box-F1": 0.82608,
+        "mAP50": 0.87614,
+        "mAP50-95": 0.52591
+      }
+    ],
+    "diagnostic_totals": {
+      "correct": 176,
+      "wrong_class": 4,
+      "missed": 53,
+      "extra": 59
+    },
+    "diagnostic_definition": "conf=.25, IoU=.5, class-agnostic geometric assignment; not AP"
+  },
+  {
+    "model": "ca",
+    "seed": 42,
+    "run": "${PROJECT_ROOT}/baseline/runs/ca_full_seed42_20261017T074754068072",
+    "split": "test",
+    "checkpoint_sha256": "348619d0d1f27f8e999dab229ebad9636fe79abb8ff866f00574d29838edad1d",
+    "map50": 0.7591260266355028,
+    "map50_95": 0.41154670799810766,
+    "per_class": [
+      {
+        "Class": "scratch",
+        "Images": 60,
+        "Instances": 94,
+        "Box-P": 0.6851,
+        "Box-R": 0.65957,
+        "Box-F1": 0.67209,
+        "mAP50": 0.6426,
+        "mAP50-95": 0.30154
+      },
+      {
+        "Class": "pest_damage",
+        "Images": 54,
+        "Instances": 139,
+        "Box-P": 0.83604,
+        "Box-R": 0.82014,
+        "Box-F1": 0.82801,
+        "mAP50": 0.87565,
+        "mAP50-95": 0.52156
+      }
+    ],
+    "diagnostic_totals": {
+      "correct": 176,
+      "wrong_class": 6,
+      "missed": 51,
+      "extra": 52
+    },
+    "diagnostic_definition": "conf=.25, IoU=.5, class-agnostic geometric assignment; not AP"
+  },
+  {
+    "model": "baseline",
+    "seed": 43,
+    "run": "${PROJECT_ROOT}/baseline/runs/baseline_full_seed43_20261018T000734673020",
+    "split": "test",
+    "checkpoint_sha256": "053b7db80bf52d96eaad09411d121b27b5dc22ab1ebca0387499fb68709150eb",
+    "map50": 0.7774766477136956,
+    "map50_95": 0.418865350027316,
+    "per_class": [
+      {
+        "Class": "scratch",
+        "Images": 60,
+        "Instances": 94,
+        "Box-P": 0.69679,
+        "Box-R": 0.66008,
+        "Box-F1": 0.67793,
+        "mAP50": 0.68521,
+        "mAP50-95": 0.33698
+      },
+      {
+        "Class": "pest_damage",
+        "Images": 54,
+        "Instances": 139,
+        "Box-P": 0.90084,
+        "Box-R": 0.78428,
+        "Box-F1": 0.83853,
+        "mAP50": 0.86974,
+        "mAP50-95": 0.50076
+      }
+    ],
+    "diagnostic_totals": {
+      "correct": 177,
+      "wrong_class": 3,
+      "missed": 53,
+      "extra": 56
+    },
+    "diagnostic_definition": "conf=.25, IoU=.5, class-agnostic geometric assignment; not AP"
+  },
+  {
+    "model": "se",
+    "seed": 43,
+    "run": "${PROJECT_ROOT}/baseline/runs/se_full_seed43_20261018T003217508226",
+    "split": "test",
+    "checkpoint_sha256": "e8e7ee38bb9a4dec2bfcef969283516c009fdf42e9866d3144fb252bf39690fc",
+    "map50": 0.7704964467517244,
+    "map50_95": 0.4327475447920219,
+    "per_class": [
+      {
+        "Class": "scratch",
+        "Images": 60,
+        "Instances": 94,
+        "Box-P": 0.67185,
+        "Box-R": 0.67522,
+        "Box-F1": 0.67353,
+        "mAP50": 0.65685,
+        "mAP50-95": 0.34576
+      },
+      {
+        "Class": "pest_damage",
+        "Images": 54,
+        "Instances": 139,
+        "Box-P": 0.84964,
+        "Box-R": 0.81295,
+        "Box-F1": 0.83089,
+        "mAP50": 0.88414,
+        "mAP50-95": 0.51973
+      }
+    ],
+    "diagnostic_totals": {
+      "correct": 175,
+      "wrong_class": 5,
+      "missed": 53,
+      "extra": 57
+    },
+    "diagnostic_definition": "conf=.25, IoU=.5, class-agnostic geometric assignment; not AP"
+  },
+  {
+    "model": "cbam",
+    "seed": 43,
+    "run": "${PROJECT_ROOT}/baseline/runs/cbam_full_seed43_20261018T005711608188",
+    "split": "test",
+    "checkpoint_sha256": "cc147abac4c0099962c660e5558abebb39c724bbc395c91e49efd9414307240f",
+    "map50": 0.7738061579711577,
+    "map50_95": 0.4270104237270611,
+    "per_class": [
+      {
+        "Class": "scratch",
+        "Images": 60,
+        "Instances": 94,
+        "Box-P": 0.549,
+        "Box-R": 0.67341,
+        "Box-F1": 0.60487,
+        "mAP50": 0.67262,
+        "mAP50-95": 0.347
+      },
+      {
+        "Class": "pest_damage",
+        "Images": 54,
+        "Instances": 139,
+        "Box-P": 0.85702,
+        "Box-R": 0.79856,
+        "Box-F1": 0.82676,
+        "mAP50": 0.875,
+        "mAP50-95": 0.50702
+      }
+    ],
+    "diagnostic_totals": {
+      "correct": 170,
+      "wrong_class": 7,
+      "missed": 56,
+      "extra": 65
+    },
+    "diagnostic_definition": "conf=.25, IoU=.5, class-agnostic geometric assignment; not AP"
+  },
+  {
+    "model": "ca",
+    "seed": 43,
+    "run": "${PROJECT_ROOT}/baseline/runs/ca_full_seed43_20261018T012253155425",
+    "split": "test",
+    "checkpoint_sha256": "b0a7420c18063c774dfdd585614aa583f1ee7f8354e2ac5f05cae475e7cc5644",
+    "map50": 0.7635687683597538,
+    "map50_95": 0.4107865936345709,
+    "per_class": [
+      {
+        "Class": "scratch",
+        "Images": 60,
+        "Instances": 94,
+        "Box-P": 0.6017,
+        "Box-R": 0.65892,
+        "Box-F1": 0.62901,
+        "mAP50": 0.65633,
+        "mAP50-95": 0.31496
+      },
+      {
+        "Class": "pest_damage",
+        "Images": 54,
+        "Instances": 139,
+        "Box-P": 0.84392,
+        "Box-R": 0.79856,
+        "Box-F1": 0.82062,
+        "mAP50": 0.87081,
+        "mAP50-95": 0.50661
+      }
+    ],
+    "diagnostic_totals": {
+      "correct": 174,
+      "wrong_class": 5,
+      "missed": 54,
+      "extra": 62
+    },
+    "diagnostic_definition": "conf=.25, IoU=.5, class-agnostic geometric assignment; not AP"
+  },
+  {
+    "model": "baseline",
+    "seed": 44,
+    "run": "${PROJECT_ROOT}/baseline/runs/baseline_full_seed44_20261018T014814281289",
+    "split": "test",
+    "checkpoint_sha256": "6ed59e9c8e1edb12350648c8f119a063f81191548aa012dc968a5686cf42e2c2",
+    "map50": 0.7466059464706785,
+    "map50_95": 0.4018209232441573,
+    "per_class": [
+      {
+        "Class": "scratch",
+        "Images": 60,
+        "Instances": 94,
+        "Box-P": 0.75891,
+        "Box-R": 0.56934,
+        "Box-F1": 0.6506,
+        "mAP50": 0.64381,
+        "mAP50-95": 0.31842
+      },
+      {
+        "Class": "pest_damage",
+        "Images": 54,
+        "Instances": 139,
+        "Box-P": 0.91673,
+        "Box-R": 0.71282,
+        "Box-F1": 0.80201,
+        "mAP50": 0.8494,
+        "mAP50-95": 0.48522
+      }
+    ],
+    "diagnostic_totals": {
+      "correct": 173,
+      "wrong_class": 5,
+      "missed": 55,
+      "extra": 87
+    },
+    "diagnostic_definition": "conf=.25, IoU=.5, class-agnostic geometric assignment; not AP"
+  },
+  {
+    "model": "se",
+    "seed": 44,
+    "run": "${PROJECT_ROOT}/baseline/runs/se_full_seed44_20261018T021354818425",
+    "split": "test",
+    "checkpoint_sha256": "40f85c0d3fa86934fb2bc44d7a0e9c870e2fb9656fadd4955f75979ac17efd25",
+    "map50": 0.7531427451453078,
+    "map50_95": 0.399491561429835,
+    "per_class": [
+      {
+        "Class": "scratch",
+        "Images": 60,
+        "Instances": 94,
+        "Box-P": 0.66302,
+        "Box-R": 0.60638,
+        "Box-F1": 0.63344,
+        "mAP50": 0.63251,
+        "mAP50-95": 0.30264
+      },
+      {
+        "Class": "pest_damage",
+        "Images": 54,
+        "Instances": 139,
+        "Box-P": 0.8648,
+        "Box-R": 0.78228,
+        "Box-F1": 0.82147,
+        "mAP50": 0.87377,
+        "mAP50-95": 0.49635
+      }
+    ],
+    "diagnostic_totals": {
+      "correct": 171,
+      "wrong_class": 5,
+      "missed": 57,
+      "extra": 60
+    },
+    "diagnostic_definition": "conf=.25, IoU=.5, class-agnostic geometric assignment; not AP"
+  },
+  {
+    "model": "cbam",
+    "seed": 44,
+    "run": "${PROJECT_ROOT}/baseline/runs/cbam_full_seed44_20261018T024017083779",
+    "split": "test",
+    "checkpoint_sha256": "3f51f02883a058a4d37b060f0260959bbe096773842a97b76eb696c8c97531a6",
+    "map50": 0.7702879775019381,
+    "map50_95": 0.420864617473277,
+    "per_class": [
+      {
+        "Class": "scratch",
+        "Images": 60,
+        "Instances": 94,
+        "Box-P": 0.62877,
+        "Box-R": 0.69149,
+        "Box-F1": 0.65864,
+        "mAP50": 0.657,
+        "mAP50-95": 0.3363
+      },
+      {
+        "Class": "pest_damage",
+        "Images": 54,
+        "Instances": 139,
+        "Box-P": 0.89748,
+        "Box-R": 0.81878,
+        "Box-F1": 0.85632,
+        "mAP50": 0.88357,
+        "mAP50-95": 0.50543
+      }
+    ],
+    "diagnostic_totals": {
+      "correct": 177,
+      "wrong_class": 5,
+      "missed": 51,
+      "extra": 48
+    },
+    "diagnostic_definition": "conf=.25, IoU=.5, class-agnostic geometric assignment; not AP"
+  },
+  {
+    "model": "ca",
+    "seed": 44,
+    "run": "${PROJECT_ROOT}/baseline/runs/ca_full_seed44_20261018T030614135985",
+    "split": "test",
+    "checkpoint_sha256": "d4205380ffcc51df0939a0392702611886650c204b387d349778021561d1635d",
+    "map50": 0.7821619421309529,
+    "map50_95": 0.4233330876604667,
+    "per_class": [
+      {
+        "Class": "scratch",
+        "Images": 60,
+        "Instances": 94,
+        "Box-P": 0.69382,
+        "Box-R": 0.60638,
+        "Box-F1": 0.64716,
+        "mAP50": 0.67939,
+        "mAP50-95": 0.34414
+      },
+      {
+        "Class": "pest_damage",
+        "Images": 54,
+        "Instances": 139,
+        "Box-P": 0.85354,
+        "Box-R": 0.80576,
+        "Box-F1": 0.82896,
+        "mAP50": 0.88493,
+        "mAP50-95": 0.50253
+      }
+    ],
+    "diagnostic_totals": {
+      "correct": 175,
+      "wrong_class": 4,
+      "missed": 54,
+      "extra": 53
+    },
+    "diagnostic_definition": "conf=.25, IoU=.5, class-agnostic geometric assignment; not AP"
+  }
+]

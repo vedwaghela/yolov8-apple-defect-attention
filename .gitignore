@@ -1,0 +1,29 @@
+# Local environments and tools
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.uv-cache/
+.ultralytics/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+~$*
+# Secrets
+.env
+.env.*
+*.pem
+*.key
+# Downloaded data and regenerated local records
+baseline/data/
+baseline/runs/
+# Large binaries and private backups
+*.pt
+*.pth
+*.onnx
+*.engine
+*.zip
+*.mp4
+*.log

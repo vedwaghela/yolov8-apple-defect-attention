@@ -1,0 +1,38 @@
+{
+  "model": "baseline",
+  "seed": 42,
+  "run": "${PROJECT_ROOT}/baseline/runs/baseline_seed42_20261016T000839200430",
+  "split": "test",
+  "checkpoint_sha256": "67a605a886d4a581fed57766856566b985682c4669e401e89a6837a5977b5fae",
+  "map50": 0.7421714365670675,
+  "map50_95": 0.4003674977871752,
+  "per_class": [
+    {
+      "Class": "scratch",
+      "Images": 60,
+      "Instances": 94,
+      "Box-P": 0.61566,
+      "Box-R": 0.59574,
+      "Box-F1": 0.60554,
+      "mAP50": 0.61735,
+      "mAP50-95": 0.3077
+    },
+    {
+      "Class": "pest_damage",
+      "Images": 54,
+      "Instances": 139,
+      "Box-P": 0.81521,
+      "Box-R": 0.8252,
+      "Box-F1": 0.82018,
+      "mAP50": 0.86699,
+      "mAP50-95": 0.49303
+    }
+  ],
+  "diagnostic_totals": {
+    "correct": 175,
+    "wrong_class": 7,
+    "missed": 51,
+    "extra": 85
+  },
+  "diagnostic_definition": "conf=.25, IoU=.5, class-agnostic geometric assignment; not AP"
+}

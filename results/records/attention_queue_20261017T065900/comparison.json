@@ -1,0 +1,46 @@
+[
+  {
+    "model": "baseline",
+    "run": "${PROJECT_ROOT}/baseline/runs/baseline_seed42_20261016T000839200430",
+    "best_epoch": 38,
+    "map50": 0.78393,
+    "map50_95": 0.41001,
+    "precision": 0.83647,
+    "recall": 0.68184,
+    "parameters": 3011238,
+    "training_seconds": 1963.9
+  },
+  {
+    "model": "se",
+    "run": "${PROJECT_ROOT}/baseline/runs/se_full_seed42_20261017T065904933679",
+    "best_epoch": 50,
+    "map50": 0.7898,
+    "map50_95": 0.42519,
+    "precision": 0.83181,
+    "recall": 0.71332,
+    "parameters": 3013286,
+    "training_seconds": 1422.04
+  },
+  {
+    "model": "cbam",
+    "run": "${PROJECT_ROOT}/baseline/runs/cbam_full_seed42_20261017T072311135098",
+    "best_epoch": 49,
+    "map50": 0.78138,
+    "map50_95": 0.43463,
+    "precision": 0.76656,
+    "recall": 0.7024,
+    "parameters": 3013522,
+    "training_seconds": 1458.93
+  },
+  {
+    "model": "ca",
+    "run": "${PROJECT_ROOT}/baseline/runs/ca_full_seed42_20261017T074754068072",
+    "best_epoch": 47,
+    "map50": 0.79838,
+    "map50_95": 0.42377,
+    "precision": 0.81855,
+    "recall": 0.69491,
+    "parameters": 3014590,
+    "training_seconds": 1440.98
+  }
+]

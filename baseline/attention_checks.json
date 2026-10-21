@@ -1,0 +1,32 @@
+{
+  "se": {
+    "parameters": 3013286,
+    "attention_parameters": 2048,
+    "shared_weights_preserved": true,
+    "gradient_check": "passed",
+    "fresh_trainer_initialization_matches_baseline": true,
+    "checkpoint_roundtrip": "passed",
+    "fused_inference": "passed",
+    "trainer_reconstruction": "passed"
+  },
+  "cbam": {
+    "parameters": 3013522,
+    "attention_parameters": 2284,
+    "shared_weights_preserved": true,
+    "gradient_check": "passed",
+    "fresh_trainer_initialization_matches_baseline": true,
+    "checkpoint_roundtrip": "passed",
+    "fused_inference": "passed",
+    "trainer_reconstruction": "passed"
+  },
+  "ca": {
+    "parameters": 3014590,
+    "attention_parameters": 3352,
+    "shared_weights_preserved": true,
+    "gradient_check": "passed",
+    "fresh_trainer_initialization_matches_baseline": true,
+    "checkpoint_roundtrip": "passed",
+    "fused_inference": "passed",
+    "trainer_reconstruction": "passed"
+  }
+}

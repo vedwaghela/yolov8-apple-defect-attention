@@ -1,0 +1,38 @@
+{
+  "model": "cbam",
+  "seed": 42,
+  "run": "${PROJECT_ROOT}/baseline/runs/cbam_full_seed42_20261017T072311135098",
+  "split": "val",
+  "checkpoint_sha256": "b47a63d8f700040590b7446ebef6eac6457c12616f5d58854ac9b54858e072b0",
+  "map50": 0.7811378948806551,
+  "map50_95": 0.4348247763238683,
+  "per_class": [
+    {
+      "Class": "scratch",
+      "Images": 61,
+      "Instances": 93,
+      "Box-P": 0.63441,
+      "Box-R": 0.65591,
+      "Box-F1": 0.64499,
+      "mAP50": 0.68197,
+      "mAP50-95": 0.36552
+    },
+    {
+      "Class": "pest_damage",
+      "Images": 61,
+      "Instances": 130,
+      "Box-P": 0.89848,
+      "Box-R": 0.74887,
+      "Box-F1": 0.81688,
+      "mAP50": 0.88031,
+      "mAP50-95": 0.50413
+    }
+  ],
+  "diagnostic_totals": {
+    "correct": 163,
+    "wrong_class": 3,
+    "missed": 57,
+    "extra": 60
+  },
+  "diagnostic_definition": "conf=.25, IoU=.5, class-agnostic geometric assignment; not AP"
+}

@@ -1,0 +1,40 @@
+{
+  "status": "completed",
+  "purpose": "comparison",
+  "variant": "cbam",
+  "attention_layer": 6,
+  "split_manifest_sha256": "cb27bec26548b2781ca34bcf02b01f6690568d1bd3699e6a0f6987fa6b5e2993",
+  "settings": {
+    "data": "${PROJECT_ROOT}/baseline/data/grouped_v1/ssda.yaml",
+    "epochs": 50,
+    "imgsz": 640,
+    "batch": 4,
+    "device": "0",
+    "workers": 0,
+    "seed": 44,
+    "deterministic": true,
+    "optimizer": "AdamW",
+    "lr0": 0.001,
+    "lrf": 0.01,
+    "weight_decay": 0.0005,
+    "patience": 0,
+    "amp": false,
+    "cache": false,
+    "close_mosaic": 10,
+    "project": "${PROJECT_ROOT}/baseline/runs",
+    "name": "cbam_full_seed44_20261018T024017083779",
+    "exist_ok": true,
+    "plots": true
+  },
+  "python": "3.13.5",
+  "packages": {
+    "torch": "2.8.0+cu128",
+    "torchvision": "0.23.0+cu128",
+    "ultralytics": "8.3.203"
+  },
+  "gpu": "NVIDIA GeForce RTX 2050",
+  "data_config_sha256": "ef708d4fdaee1f896ecbc11f0c82611d8a62fc66ce0f737e81a9238ac2d26aaf",
+  "parameters": 3013522,
+  "attention_parameters": 2284,
+  "note": "Validation only. No held-out test evaluation. Smoke scores are not research results."
+}
