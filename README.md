@@ -27,7 +27,6 @@ Values after +/- are sample standard deviations across seeds 42, 43 and 44. Timi
 | `data/splits/` | Portable frozen split metadata; no dataset images |
 | `results/records/` | Final evaluation, plots, diagnostics and 12 training histories |
 | `reports/` | Final polished Word report |
-| `presentation/` | Final slides and recording guide |
 | `scripts/` | Local-path setup helper |
 | `docs/` | Reproduction, attribution and publication notes |
 
